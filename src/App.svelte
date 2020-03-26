@@ -36,6 +36,7 @@
 			<div class="mt-16 pb-16 w-full sm:w-7/12 md:w-1/2 lg:w-1/3">
 				<h2 class="{textColor} antialiased font-sans font-light tracking-wider text-xs sm:text-sm md:text-base lg:text-lg"><span class="font-bold">txtodo</span> is a simple, minimalist open-source todo list app made by <a href="https://figbert.com/" class="{linkColor}">FIGBERT</a> and inspired by <a href="https://jeffhuang.com/productivity_text_file/" class="{linkColor}">Jeff Huang.</a></h2>
 				<h3 class="text-subtext antialiased font-sans font-light tracking-wider text-xs sm:text-sm md:text-base lg:text-lg">It manages immediate, short-term tasks<br/>to help you get things done without overthinking it. Plus, it's entirely open source, and built with SwiftUI.</h3>
+				<p class="text-subtext antialiased font-sans font-light tracking-wider text-xs">txtodo does not track you: it is entirely offline. the only app-analytics i receive are provided by the App Store. this site uses <a href="https://www.goatcounter.com/" class="text-blue-700">GoatCounter</a> for anonymous analytics.</p>
 				<div class="mt-8">
 					<div class="inline-block align-middle mr-2"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./apple-dark.svg", "./apple-light.svg"]} alt="Apple logo" label="Download from the App Store" link="https://apple.com/"/></div>
 					<div class="inline-block align-middle"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./github-dark.svg", "./github-light.svg"]} alt="Github logo" label="View the repo" link="https://github.com/therealFIGBERT/txtodo"/></div>
