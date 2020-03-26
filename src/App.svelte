@@ -25,7 +25,7 @@
 </script>
 
 <main>
-	<div class="{backgroundColor} min-h-screen w-screen pl-5 sm:pl-6 md:pl-8 lg:pl-10 overflow-hidden">
+	<div class="{backgroundColor} h-screen w-screen pl-5 sm:pl-6 md:pl-8 lg:pl-10 overflow-hidden">
 		<header>
 			<button class="float-right m-4" on:click={toggleMode}>
 				<img src={appearenceImg} alt={appearenceAlt} class="w-5 sm:w-5 md:w-6 lg:w-8">
