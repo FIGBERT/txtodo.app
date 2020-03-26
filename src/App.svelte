@@ -25,7 +25,7 @@
 </script>
 
 <main>
-	<div class="{backgroundColor} h-screen w-screen pl-5 sm:pl-6 md:pl-8 lg:pl-10 overflow-hidden">
+	<div class="{backgroundColor} min-h-screen w-screen pl-5 sm:pl-6 md:pl-8 lg:pl-10 overflow-hidden">
 		<header>
 			<button class="float-right m-4" on:click={toggleMode}>
 				<img src={appearenceImg} alt={appearenceAlt} class="w-5 sm:w-5 md:w-6 lg:w-8">
@@ -36,8 +36,10 @@
 			<div class="mt-16 pb-16 w-full sm:w-7/12 md:w-1/2 lg:w-1/3">
 				<h2 class="{textColor} antialiased font-sans font-light tracking-wider text-xs sm:text-sm md:text-base lg:text-lg"><span class="font-bold">txtodo</span> is a simple, minimalist open-source todo list app made by <a href="https://figbert.com/" class="{linkColor}">FIGBERT</a> and inspired by <a href="https://jeffhuang.com/productivity_text_file/" class="{linkColor}">Jeff Huang.</a></h2>
 				<h3 class="text-subtext antialiased font-sans font-light tracking-wider text-xs sm:text-sm md:text-base lg:text-lg">It manages immediate, short-term tasks<br/>to help you get things done without overthinking it. Plus, it's entirely open source, and built with SwiftUI.</h3>
-				<div class="mt-8"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./apple-dark.svg", "./apple-light.svg"]} alt="Apple logo" label="Download from the App Store" link="https://apple.com/"/></div>
-				<div class="mt-4"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./github-dark.svg", "./github-light.svg"]} alt="Github logo" label="View the repo" link="https://github.com/therealFIGBERT/txtodo"/></div>
+				<div class="mt-8">
+					<div class="inline-block align-middle mr-2"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./apple-dark.svg", "./apple-light.svg"]} alt="Apple logo" label="Download from the App Store" link="https://apple.com/"/></div>
+					<div class="inline-block align-middle"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./github-dark.svg", "./github-light.svg"]} alt="Github logo" label="View the repo" link="https://github.com/therealFIGBERT/txtodo"/></div>
+				</div>
 			</div>
 			<img src={phoneImg} alt="txtodo on an iPhone" class="h-auto lg:h-full w-full md:w-2/3 lg:w-auto object-cover mr-0 lg:mr-4"/>
 		</div>
