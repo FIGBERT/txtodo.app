@@ -1,6 +1,6 @@
 # txtodo.app
 
-[txtodo.app](https://txtodo.app/) is the official website for the txtodo app, a simple, minimalist open-srouce todo app made by [FIGBERT](https://figbert.com/).
+[txtodo.app](https://txtodo.app/) is the official website for the txtodo app, a simple, minimalist open-source todo app made by [FIGBERT](https://figbert.com/).
 
 The site is programmed using [Svelte](https://svelte.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
