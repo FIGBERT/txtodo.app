@@ -32,7 +32,7 @@
 			</button>
 			<h1 class="{textColor} antialiased font-sans font-hairline tracking-wider text-3xl sm:text-4xl md:text-5xl lg:text-6xl">txtodo</h1>
 		</header>
-		<div class="flex flex-col lg:flex-row justify-between">
+		<div class="flex flex-col lg:flex-row justify-between xl:justify-around">
 			<div class="mt-16 pb-16 w-full sm:w-7/12 md:w-1/2 lg:w-1/3">
 				<h2 class="{textColor} antialiased font-sans font-light tracking-wider text-xs sm:text-sm md:text-base lg:text-lg"><span class="font-bold">txtodo</span> is a simple, minimalist open-source todo list app made by <a href="https://figbert.com/" class="{linkColor}">FIGBERT</a> and inspired by <a href="https://jeffhuang.com/productivity_text_file/" class="{linkColor}">Jeff Huang.</a></h2>
 				<h3 class="text-subtext antialiased font-sans font-light tracking-wider text-xs sm:text-sm md:text-base lg:text-lg">It manages immediate, short-term tasks<br/>to help you get things done without overthinking it. Plus, it's entirely open source, and built with SwiftUI.</h3>
