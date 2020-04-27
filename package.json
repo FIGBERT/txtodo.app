@@ -1,6 +1,10 @@
 {
   "name": "txtodo.app",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therealFIGBERT/txtodo.app.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
