@@ -50,7 +50,7 @@
 		<p>i'm <a href="https://figbert.com/" target="_blank" rel="noopener noreferrer">figbert</a> – the developer of txtodo. it's nice to meet you!</p>
 		<p>txtodo is built to remedy the problems i've found with the task managers of today – namely, the overwhelming buildup of tasks that we procrastinate, delay, and postpone. the longer the tasks sit in our todo, the less likely they are to be completed.</p>
 		<p>with txtodo, this problem is gone – because those delayed tasks are too. it lists short-term tasks to help you get things done, and anything unfinished at the end of the day is discarded so you can start fresh tomorrow.</p>
-		<p>feel free to reach out to me with feedback, appreciation, or just to chat at <a href="mailto:txtodo@figbert.com" rel="noopener noreferrer">txtodo@figbert.com</a>.</p>
+		<p>feel free to reach out to me with feedback, appreciation, or just to chat at <a href="mailto:figbert@figbert.com" rel="noopener noreferrer">figbert@figbert.com</a>.</p>
 	</div>
 </section>
 <footer id="privacy" class="mb-2 text-center" style="color: var(--subtext-color); font-size: .5rem;">txtodo does not track you. the only app analytics i receive are automatically provided by the app store. this site uses <a href="https://www.goatcounter.com/">goatcounter</a> for anonymous analytics.</footer>
