@@ -30,7 +30,7 @@
 		<div class="mt-8 flex flex-col lg:flex-row items-center lg:items-start">
 			<div class="inline-block align-middle mb-3 lg:mb-0 lg:mr-2"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./apple-dark.svg", "./apple-light.svg"]} alt="apple logo" label="download the ios app" link="https://apps.apple.com/us/app/txtodo/id1504609185"/></div>
 			<div class="inline-block align-middle mb-3 lg:mb-0 lg:mr-2"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./apple-dark.svg", "./apple-light.svg"]} alt="apple logo" label="download the macos app" link="https://apps.apple.com/us/app/txtodo-companion/id1517267304"/></div>
-			<div class="inline-block align-middle"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./github-dark.svg", "./github-light.svg"]} alt="github logo" label="view my code" link="https://github.com/therealFIGBERT/txtodo"/></div>
+			<div class="inline-block align-middle"><DownloadIcon isDarkMode={isDarkMode} srcPair={["./github-dark.svg", "./github-light.svg"]} alt="github logo" label="view my code" link="https://git.figbert.com/FIGBERT/txtodo.app"/></div>
 		</div>
 	</section>
 	<img src={phoneImg} alt="txtodo running on an iPhone" class="h-auto w-full sm:w-2/3"/>

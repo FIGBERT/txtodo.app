@@ -7,8 +7,8 @@ the site is programmed using [svelte](https://svelte.dev/) and [tailwind css](ht
 ## links
 1. [txtodo homepage](https://txtodo.app/)
 2. [figbert homepage](https://figbert.com/)
-3. [txtodo repository](https://github.com/therealFIGBERT/txtodo)
-4. [txtodo homepage repository](https://github.com/therealFIGBERT/txtodo.app)
+3. [txtodo repository](https://git.figbert.com/FIGBERT/txtodo)
+4. [txtodo homepage repository](https://git.figbert.com/FIGBERT/txtodo.app)
 5. [txtodo on the app store](https://apps.apple.com/us/app/txtodo/id1504609185)
 
 ## license
