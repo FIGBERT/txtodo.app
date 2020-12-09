@@ -1,0 +1,130 @@
+:root {
+    --text-color: #1C1C1E;
+    --subtext-color: #8E8E93;
+    --link-color: #007AFF;
+    --bg-color-main: #F2F2F7;
+    --border-color: #CBD5E0;
+}
+
+body {
+    color: var(--text-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    background-color: var(--bg-color-main);
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+h3 {
+    color: var(--subtext-color);
+    font-weight: 100;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: grid;
+    gap: 6rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+main > * {
+    place-self: center;
+    padding: 0 4rem;
+}
+
+#download-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.download {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: var(--text-color);
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 0.75rem;
+    line-height: 1.375;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-weight: bold;
+}
+
+.download > img {
+    width: 1.25rem;
+    height: auto;
+    margin: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+#one-img {
+    width: 75%;
+}
+
+#note {
+    text-align: left;
+    margin: 4rem auto 3rem auto;
+    max-width: 28rem;
+    padding: 1.25rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--border-color);
+    border-radius: 0.25rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    transform: rotate(-2deg);
+}
+
+#note p {
+    margin-bottom: 0.5rem;
+}
+
+#privacy {
+    color: var(--subtext-color);
+    font-size: .5rem;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #F2F2F7;
+        --link-color: #0A84FF;
+        --bg-color-main: #1C1C1E;
+        --border-color: #2D3748;
+    }
+}
+
+@media (max-width: 1024px) {
+    #two-img {
+        grid-row-start: 4;
+    }
+    #two-text {
+        grid-row-start: 3;
+    }
+    main {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
