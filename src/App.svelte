@@ -25,8 +25,7 @@
 			it lists short-term tasks to help you get things done without overthinking it. plus, it's lightweight, open-source, and built with swiftui.
 		</h3>
 		<div id="download-container">
-			<div><DownloadIcon isDarkMode={isDarkMode} srcPair={["./apple-dark.svg", "./apple-light.svg"]} alt="apple logo" label="download the ios app" link="https://apps.apple.com/us/app/txtodo/id1504609185"/></div>
-			<div><DownloadIcon isDarkMode={isDarkMode} srcPair={["./apple-dark.svg", "./apple-light.svg"]} alt="apple logo" label="download the macos app" link="https://apps.apple.com/us/app/txtodo-companion/id1517267304"/></div>
+			<div><DownloadIcon isDarkMode={isDarkMode} srcPair={["./apple-dark.svg", "./apple-light.svg"]} alt="apple logo" label="download on the app store" link="https://apps.apple.com/us/app/txtodo/id1504609185"/></div>
 			<div><DownloadIcon isDarkMode={isDarkMode} srcPair={["./github-dark.svg", "./github-light.svg"]} alt="github logo" label="view my code" link="https://git.figbert.com/FIGBERT/txtodo"/></div>
 		</div>
 	</section>
